@@ -12,10 +12,10 @@ Users sign up with first/last name, log in with email/password, and exchange mes
 - Deployment via Firebase Hosting  
 
 ## Architecture Overview
-Frontend (HTML/CSS/JS)
-Firebase Auth - user sign-up/login
-Cloud Firestore that stores users data
-Firebase Hosting ← serves the UI
+- Frontend (HTML/CSS/JS)
+- Firebase Auth - user sign-up/login
+- Cloud Firestore that stores users data
+- Firebase Hosting ← serves the UI
 
 ## Tech Stack
 - **Firebase Authentication** – user identity  
