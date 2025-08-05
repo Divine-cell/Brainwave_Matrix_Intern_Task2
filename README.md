@@ -24,8 +24,9 @@ Users sign up with first/last name, log in with email/password, and exchange mes
 - **Firebase Authentication**   
 - **Cloud Firestore** 
 - **Firebase Hosting**
-  <img width="1366" height="676" alt="Screenshot 2025-08-05 000335" src="https://github.com/user-attachments/assets/2ba071ad-a61c-4ebb-b2c5-4bf665089ae3" />
   
+  <img width="1363" height="721" alt="Screenshot 2025-08-05 000203" src="https://github.com/user-attachments/assets/795862d6-a21b-4c39-8c81-79f8f4b48fdc" />
+
 ## Hosted Real-time Chat Web App
 eConnect: https://econnect-96da4.web.app/
   
