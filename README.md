@@ -1,4 +1,4 @@
-# eConnect — Real-time Chat Application
+# eConnect -  Real-time Chat Application
 
 A real-time chat application built with **Firebase Authentication** and **Cloud Firestore**, deployed to **Firebase Hosting**.  
 Users sign up with first/last name, log in with email/password, and exchange messages instantly. Each message shows the sender's initials as an avatar.
@@ -24,8 +24,12 @@ Users sign up with first/last name, log in with email/password, and exchange mes
 - **Firebase Authentication**   
 - **Cloud Firestore** 
 - **Firebase Hosting**
+  <img width="1366" height="676" alt="Screenshot 2025-08-05 000335" src="https://github.com/user-attachments/assets/2ba071ad-a61c-4ebb-b2c5-4bf665089ae3" />
   
-- **Vanilla JavaScript / HTML / CSS** – frontend UI  
-- **No build step required** (unless you add a framework later)  
+## Hosted Real-time Chat Web App
+eConnect: https://econnect-96da4.web.app/
+  
+
+
 
 
