@@ -17,10 +17,14 @@ Users sign up with first/last name, log in with email/password, and exchange mes
 - Cloud Firestore that stores users data
 - Firebase Hosting ← serves the UI
 
-## Tech Stack
-- **Firebase Authentication** – user identity  
-- **Cloud Firestore** – real-time message & profile storage  
-- **Firebase Hosting** – static site deployment  
+## Technology Used
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **Firebase Authentication**   
+- **Cloud Firestore** 
+- **Firebase Hosting**
+  
 - **Vanilla JavaScript / HTML / CSS** – frontend UI  
 - **No build step required** (unless you add a framework later)  
 
