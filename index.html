@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eConnect</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SignUp section -->
+    <div id="Signup_container">
+        <h1>Welcome to <span>e</span>Connect <div class="round"></div></h1>
+        <h2>Create an account</h2>
+        <input type="text" id="first_name" placeholder="First name">
+        <input type="text" id="last_name" placeholder="Last name">
+        <input type="email" id="signup_email" placeholder="Email">
+        <input type="password" id="signup_password" placeholder="Password">
+         <div class="auth_options">
+            <p>Already Have an account? <a href="#" id="to_login">Login</a></p>
+        </div>
+        <button id="signup_btn">Sign Up</button>
+        
+    </div>
+    
+    <!-- Login scetion -->
+    <div id="Login_container" class="hidden">
+        <h1>Welcome Back!</h1>
+        <input type="email" id="login_email" placeholder="Email">
+        <input type="password" id="login_password" placeholder="Password">
+         <div class="auth_options">
+            <p>Don't have an account? <a href="#" id="to_signup">Sign up</a></p>
+            <a href="http://">Forget Password</a>
+        </div>
+        <button id="Login_btn">Login</button>
+        
+    </div>
+
+    <!-- Chatbox_Section -->
+    <div id="chat_conatiner" class="hidden" >
+        <div class="header">
+        <h2><span>e</span>Connect <div class="round"></div></h2>
+        <button id="LogOut">LogOut</button>
+        </div>
+        
+        <h3>Live Chat</h3>
+        <div id="avatar"></div>
+        <div id="message"></div>
+        <div>
+            <input type="text" id="message_input" placeholder="Send message">
+            <button id="send_btn">Send</button>
+        </div>
+        
+    </div>
+</body>
+<script type="module" src="script.js" defer></script>
+</html>

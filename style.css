@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    font-family: Poppins;
+    background: #f1f1f1;
+}
+
+span {
+    color: rgb(214, 92, 214);
+}
+
+/* SignUp UI styles */
+#Signup_container h2 {
+    width: 100%;
+    margin-top: 30px;
+    color: rgb(34, 33, 33);
+}
+
+#Signup_container h1 .round, #chat_conatiner h2 .round {
+    width: 10px;
+    padding: 5px;
+    border: none;
+    display: inline-block;
+    background-color: rgb(214, 92, 214);
+    border-radius: 50%;
+}
+
+
+#Login_container, #Signup_container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   margin: 50px auto;
+   max-width: 500px;
+   background: #fff;
+   padding: 20px;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#Login_container h1, #Signup_container h1{
+    color: rgb(34, 33, 33);
+    margin: 15px;
+}
+
+input[type="email"], Input[type="password"], input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 12px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* outline: 1px solid rgb(255, 214, 255); */
+    outline: none;
+
+}
+
+#Login_container .auth_options, #Signup_container .auth_options{
+    width: 100%;
+    display: flex;
+    gap: 170px;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.auth_options a {
+    color: rgb(34, 33, 33);
+   
+}
+
+
+#Login_container button, #Signup_container button {
+    width: 100%;    
+    padding: 10px;
+    color: #f1f1f1;
+    background: rgb(214, 92, 214); 
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+#Login_container button:hover, #Signup_container button:hover{
+    background:  rgb(243, 165, 243);
+    color: rgb(34, 33, 33);
+}
+
+/* chatbox UI style */
+#chat_conatiner{
+    display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100vh;
+   max-width: 100%;
+   background: #fff;
+   padding: 30px;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+#chat_conatiner .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#message {
+    height: 100%;
+    width: 50%;
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#chat_conatiner #LogOut{
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid  rgb(214, 92, 214) ;
+    background-color: #fff;
+    color: rgb(34, 33, 33);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 80px;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+
+#chat_conatiner #LogOut:hover{
+    background: rgb(214, 92, 214);
+    color: #f1f1f1;
+}
+
+#chat_conatiner #send_btn{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(214, 92, 214);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 60px;
+}
+
+#chat_conatiner input[type="text"]{
+    float: left;
+    margin: 0px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+    /* #Login_container, #Signup_container {
+        padding-top: 20%;
+        height: 100vh;
+        margin-top: 0;
+    } */
+
+    #Login_container h1, #Signup_container h1 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+
+}
+
+
